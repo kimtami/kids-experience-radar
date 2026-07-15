@@ -1,0 +1,117 @@
+{
+  "exhibition": {
+    "contentList": [
+      {
+        "edu_seq": 1435,
+        "edu_name": "시가 된 사진",
+        "time": "2026-07-26~2026-11-01",
+        "place_name": "교육실 1",
+        "edu_time": "일 14:00",
+        "edu_target_name": "6-7세",
+        "personnel": 12,
+        "edu_charge": "20000",
+        "status": "Y",
+        "online_yn": "Y",
+        "online_code_name": "온라인 신청",
+        "summary": "수집하지 않아야 하는 소개문",
+        "reservation_date": "20260720",
+        "applicantPhone": "010-0000-0000"
+      },
+      {
+        "edu_seq": 900,
+        "edu_name": "지난 어린이 전시 교육",
+        "time": "2025-01-01~2025-01-31",
+        "place_name": "교육실 1",
+        "edu_target_name": "초1-3",
+        "edu_charge": "0",
+        "status": "C",
+        "online_yn": "Y"
+      }
+    ],
+    "page": 1,
+    "total": 2
+  },
+  "theme1": {
+    "contentList": [
+      {
+        "edu_seq": 1410,
+        "edu_name": "MOKA Lab Episode 27",
+        "time": "2026-04-28~2026-08-23",
+        "place_name": "MOKA Lab",
+        "edu_target_name": "전체",
+        "edu_charge": 0,
+        "status": "C",
+        "online_yn": "N",
+        "online_code_name": "상설운영",
+        "list_image_url": "/private/not-retained.jpg"
+      }
+    ],
+    "page": 1,
+    "total": 1
+  },
+  "theme2": {
+    "contentList": [
+      {
+        "edu_seq": 1442,
+        "edu_name": "그림책 창작 워크숍",
+        "time": "2026-07-18~2026-08-08",
+        "place_name": "교육실 2",
+        "edu_target_name": "6세-초2",
+        "edu_charge": "50000",
+        "status": "U",
+        "online_yn": "Y",
+        "reservation_date": "20260717",
+        "staffMemo": "internal"
+      },
+      {
+        "edu_seq": 1443,
+        "edu_name": "성인 도슨트 양성",
+        "time": "2026-07-20~2026-08-20",
+        "place_name": "교육실 3",
+        "edu_target_name": "성인 대상",
+        "edu_charge": "30000",
+        "status": "Y",
+        "online_yn": "Y"
+      }
+    ],
+    "page": 1,
+    "total": 2
+  },
+  "theme3": {
+    "contentList": [
+      {
+        "edu_seq": 1438,
+        "edu_name": "여름방학 장기 프로젝트",
+        "time": "2026.07.19 - 2026.08.30",
+        "place_name": "교육실 3",
+        "edu_target_name": "초4-6",
+        "edu_charge": "100000",
+        "status": "C",
+        "online_yn": "Y",
+        "childName": "절대 보존 금지"
+      },
+      {
+        "edu_seq": 1439,
+        "edu_name": "온 가족 미술 워크숍",
+        "time": "2026.07.20 - 2026.08.30",
+        "place_name": "교육실 3",
+        "edu_target_name": "4-5세,6-7세,초1-2,초2-4",
+        "edu_charge": "0",
+        "status": "Y",
+        "online_yn": "Y"
+      },
+      {
+        "edu_seq": 1450,
+        "edu_name": "교사를 위한 전시 연수",
+        "time": "2026.07.20 - 2026.08.30",
+        "place_name": "교육실 3",
+        "edu_target_name": "현직 교사",
+        "edu_charge": "0",
+        "status": "Y",
+        "online_yn": "Y"
+      }
+    ],
+    "page": 1,
+    "total": 3
+  }
+}

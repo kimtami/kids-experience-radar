@@ -1,0 +1,24 @@
+[
+  {
+    "title": "마감",
+    "start": "2026-07-25",
+    "end": null,
+    "color": "transparent",
+    "textColor": "#8e8e8e",
+    "display": null,
+    "className": null,
+    "allDay": true,
+    "extendedProps": null
+  },
+  {
+    "title": null,
+    "start": "2026-07-25",
+    "end": null,
+    "color": null,
+    "textColor": null,
+    "display": "background",
+    "className": "fc-event-closed",
+    "allDay": false,
+    "extendedProps": null
+  }
+]

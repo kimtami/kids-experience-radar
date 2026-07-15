@@ -1,0 +1,21 @@
+{
+  "header": {"resultCode": "00", "resultMsg": "NORMAL SERVICE"},
+  "body": {
+    "totalCount": 1,
+    "items": {
+      "item": {
+        "artEduId": "EDU-2026-10",
+        "artEduTitle": "여름방학 어린이 미술 탐험대",
+        "artEduStatus": "접수중",
+        "artEduTarget": "초등 3~6학년",
+        "artEduTime": "10:00~12:00",
+        "artEduCapacity": "20명",
+        "artEduPlace": "어린이 아틀리에",
+        "artEduPeriod": "2026.07.20 ~ 2026.08.10",
+        "artEduApplyDt": "2026.07.01 ~ 2026.07.18",
+        "artEduContent": "전시 감상과 만들기를 결합한 체험 교육",
+        "artEduReqstUrl1": "https://artmuseum.jeonnam.go.kr/reserve/EDU-2026-10"
+      }
+    }
+  }
+}

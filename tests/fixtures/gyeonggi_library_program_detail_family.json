@@ -1,0 +1,32 @@
+{
+  "RESULT_CODE": "100",
+  "RESULT_INFO": "SUCCESS",
+  "RESULT_DATA": {
+    "REC_KEY": 1386,
+    "PROGRAM_TITLE": "[합성 어린이 문화] 이야기를 들려줘!",
+    "PROGRAM_TARGET": "8~10세(초등저학년)",
+    "PROGRAM_FACILITY_NAME": "이야기방",
+    "PROGRAM_START_DATE": "2026-08-06 00:00:00.0",
+    "PROGRAM_END_DATE": "2026-08-06 00:00:00.0",
+    "PROGRAM_START_TIME": "14:00",
+    "PROGRAM_END_TIME": "15:30",
+    "PROGRAM_APPLY_START_DATE": "2026-07-24 10:00:00.0",
+    "PROGRAM_APPLY_END_DATE": "2026-08-02 23:55:00.0",
+    "PROGRAM_STATUS": "5",
+    "PROGRAM_DAYS": "thu",
+    "PROGRAM_FEE": "0",
+    "MATERIAL_COST_YN": "Y",
+    "MATERIAL_COST": "5000",
+    "PROGRAM_SUB_CATEGORY_DESC": "어린이 다문화",
+    "RECRUITMENT_PERSONNEL_CNT": 15,
+    "ONLINE_RECRUITMENT_CNT": 15,
+    "NOW_ONLINE_APPLY_CNT": 0,
+    "WAITING_PERSONNEL_CNT": 5,
+    "NOW_ONLINE_WAITING_CNT": 0,
+    "ONLY_OFFLINE_YN": "N",
+    "ONLINE_CLOSED": "N",
+    "THUMBNAIL_PATH": "https://hcms.kdot.cloud/upload/141674/P/synthetic-family.png",
+    "PROGRAM_DESC": "<p>합성 그림책을 함께 읽고 문화 놀이를 체험합니다.</p>",
+    "PROGRAM_DESC_TEXT": "합성 그림책을 함께 읽고 문화 놀이를 체험합니다."
+  }
+}

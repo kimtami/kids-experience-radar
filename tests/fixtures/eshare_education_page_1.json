@@ -1,0 +1,45 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "200",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "pageNo": 1,
+      "numOfRows": 100,
+      "totalCount": "101",
+      "items": {
+        "item": [
+          {
+            "rsrcNo": "EDU001",
+            "rsrcNm": "초등 가족 생태 체험 교육",
+            "zip": "03000",
+            "addr": "서울특별시 종로구 세종대로 1",
+            "daddr": "어린이교육실",
+            "lot": "126.9784",
+            "lat": "37.5666",
+            "instUrlAddr": "https://booking.example.test/program/EDU001",
+            "imgFileUrlAddr": "/images/education/EDU001.jpg",
+            "rsrcInstNm": "서울생태교육관",
+            "rsrcIntr": "보호자와 함께 자연을 관찰하는 체험입니다.",
+            "useTrgt": "초등 1~6학년 및 보호자",
+            "freeYn": "Y",
+            "usePsblYn": "Y",
+            "telNo": "02-1234-5678"
+          },
+          {
+            "rsrcNo": "EDU002",
+            "rsrcNm": "주민 탁구교실",
+            "addr": "경기도 수원시 팔달구 효원로 1",
+            "daddr": "",
+            "lot": "not-a-coordinate",
+            "lat": "",
+            "instUrlAddr": "javascript:alert(1)",
+            "imgFileUrlAddr": "",
+            "freeYn": "N"
+          }
+        ]
+      }
+    }
+  }
+}

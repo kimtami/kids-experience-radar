@@ -1,0 +1,39 @@
+{
+  "response": {
+    "header": {"resultCode": "00", "resultMsg": "OK"},
+    "body": {
+      "items": {
+        "item": [
+          {
+            "trnActvNm": "숲속 초등 생태 탐험",
+            "prgrmCn": "숲 생물을 관찰하는 체험",
+            "ppPrtcpCst": 0,
+            "certYn": "Y",
+            "highRiskActvYn": "N",
+            "ctpvNm": "서울특별시",
+            "sggNm": "종로구",
+            "prgrsSttsNm": "운영",
+            "fcltNm": "청소년생태센터",
+            "telno": "02-000-0000",
+            "hmpgAddr": "https://example.go.kr/program/eco",
+            "addr1": "서울특별시 종로구 세종대로 1",
+            "addr2": "체험동",
+            "lot": 126.978,
+            "lat": 37.5665,
+            "operInstNm": "공공청소년기관",
+            "prgrmRelmNm": "환경보존",
+            "schboyYn": "Y",
+            "brno": "do-not-store"
+          },
+          {
+            "trnActvNm": "대학생 리더십 캠프",
+            "schboyYn": "N"
+          }
+        ]
+      },
+      "numOfRows": 100,
+      "pageNo": 1,
+      "totalCount": 2
+    }
+  }
+}

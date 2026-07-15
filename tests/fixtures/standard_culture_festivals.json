@@ -1,0 +1,33 @@
+{
+  "response": {
+    "header": {"resultCode": "00", "resultMsg": "NORMAL SERVICE."},
+    "body": {
+      "items": [
+        {
+          "fstvlNm": "어린이 과학축제",
+          "opar": "시민공원",
+          "fstvlStartDate": "2026-08-01",
+          "fstvlEndDate": "2026-08-03",
+          "fstvlCo": "가족 과학실험과 로봇 만들기 체험",
+          "mnnstNm": "예시문화재단",
+          "auspcInsttNm": "예시시청",
+          "phoneNumber": "02-1234-5678",
+          "homepageUrl": "https://festival.example.org",
+          "rdnmadr": "서울특별시 종로구 세종대로 1",
+          "latitude": "37.5700",
+          "longitude": "126.9769"
+        },
+        {
+          "fstvlNm": "성인가요제",
+          "fstvlStartDate": "2026-08-01",
+          "fstvlEndDate": "2026-08-01",
+          "fstvlCo": "가수 공연",
+          "mnnstNm": "예시기관"
+        }
+      ],
+      "numOfRows": 1000,
+      "pageNo": 1,
+      "totalCount": 2
+    }
+  }
+}

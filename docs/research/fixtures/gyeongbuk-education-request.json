@@ -1,0 +1,64 @@
+{
+  "source_id": "gyeongbuk_education_experience",
+  "verified_at": "2026-07-15",
+  "official_list": "https://www.gbe.kr/edushare/exprn/selectExprnList.do?mi=17609",
+  "institution_discovery_request": {
+    "method": "POST",
+    "url": "https://www.gbe.kr/edushare/rs/search/selectRsTypeDetailList.do",
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "body": "rsType=exprn"
+  },
+  "live_response_sample_truncated": [
+    {
+      "rsSysId": "gs",
+      "rsSysNm": "경산교육지원청"
+    },
+    {
+      "rsSysId": "gbemc",
+      "rsSysNm": "경상북도교육청 수학문화관"
+    },
+    {
+      "rsSysId": "gbai",
+      "rsSysNm": "경상북도교육청 인공지능교육관"
+    }
+  ],
+  "program_options_request": {
+    "method": "POST",
+    "url": "https://www.gbe.kr/edushare/rs/search/selectRsPrgmList.do",
+    "headers": {
+      "Accept": "text/html",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "body_template": "rsType=exprn&srchRsSysId={rsSysId}"
+  },
+  "list_request": {
+    "method": "GET",
+    "url": "https://www.gbe.kr/edushare/exprn/selectExprnList.do",
+    "query": {
+      "mi": "17609",
+      "srchRsSysId": "{rsSysId}",
+      "srchRsvSttus": "REQST",
+      "currPage": "1"
+    }
+  },
+  "detail_url_template": "https://www.gbe.kr/edushare/exprn/selectExprnInfo.do?srchRsSysId={rsSysId}&exprnSeq={exprnSeq}&exprnPeriodSeq={exprnPeriodSeq}",
+  "field_map": {
+    "provider_id": "rsSysId",
+    "provider_name": "rsSysNm",
+    "external_id": "exprnSeq + ':' + exprnPeriodSeq",
+    "title": "experience title",
+    "status": "reservation status",
+    "program_period": "operation period",
+    "application_period": "application period",
+    "audience_text": "experience target",
+    "venue_name": "institution or detail-page venue"
+  },
+  "policy": {
+    "authentication": "Public list and detail; login may be required only to submit a reservation.",
+    "robots": "The experience list path was not disallowed in the policy observed on 2026-07-15.",
+    "rate_limit": "Use conditional requests and a low request rate; discover institutions once per day."
+  }
+}

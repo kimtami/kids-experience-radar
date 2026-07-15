@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /itg/ln/
+Disallow: /itg/mp/
+Disallow: /ln/
+Disallow: /mp/

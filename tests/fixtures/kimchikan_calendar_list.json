@@ -1,0 +1,22 @@
+[
+  {
+    "schSeq": 4101,
+    "schDate": "2026-07-18",
+    "startTime": "10:30",
+    "endTime": "11:50",
+    "openDatetime": "2026-06-17T10:00:00",
+    "reservedCnt": 18,
+    "remainCnt": 6,
+    "isClosed": false
+  },
+  {
+    "schSeq": 4102,
+    "schDate": "2026-07-18",
+    "startTime": "14:00",
+    "endTime": "15:20",
+    "openDatetime": "2026-06-17T10:00:00",
+    "reservedCnt": 24,
+    "remainCnt": 0,
+    "isClosed": true
+  }
+]

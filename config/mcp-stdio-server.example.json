@@ -1,0 +1,13 @@
+{
+  "type": "stdio",
+  "command": "uvx",
+  "args": [
+    "--from",
+    "git+https://github.com/kimtami/kids-experience-radar.git@v0.1.0",
+    "kidradar-mcp"
+  ],
+  "env": {
+    "KIDS_RADAR_DB": "/ABSOLUTE/PATH/radar.sqlite3",
+    "KIDS_RADAR_MCP_ALLOW_CRAWL": "0"
+  }
+}

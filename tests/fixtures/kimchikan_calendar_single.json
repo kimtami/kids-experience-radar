@@ -1,0 +1,12 @@
+{
+  "content": {
+    "schSeq": "5201",
+    "schDate": "2026-07-19",
+    "startTime": "1030",
+    "endTime": "1150",
+    "openDatetime": "2026-06-17 10:00:00",
+    "reservedCnt": "10",
+    "remainCnt": "14",
+    "isClosed": "N"
+  }
+}

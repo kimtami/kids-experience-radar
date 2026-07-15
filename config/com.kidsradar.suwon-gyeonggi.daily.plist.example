@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.kidsradar.suwon-gyeonggi.daily</string>
+  <key>WorkingDirectory</key><string>/ABSOLUTE/PATH/kids-experience-radar</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string><string>-lc</string>
+    <string>uv run kidradar crawl --source ggc_gyeonggi_child_events --source ggcf_affiliate_child_programs --source ggcf_gyeonggi_jang_programs --source suwon_education_experience --source suwon_culture_foundation_education --source suwon_ecology_child_programs --source suwon_library_child_programs --source suwon_museum_child_programs --source suwon_gwanggyo_museum_child_programs --source suwon_hwaseong_museum_child_programs --source goyang_children_museum_city_news --source gyeonggi_library_programs --max-pages 25; crawl_status=$?; uv run kidradar geocode --limit 500 || true; uv run kidradar digest --lat 37.2636 --lon 127.0286 --radius-km 30 --include-unknown-location --new-within-hours 26 --max-stale-hours 48 --output data/suwon-gyeonggi-digest-latest.md; digest_status=$?; if [ $crawl_status -ne 0 ]; then exit $crawl_status; fi; exit $digest_status</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>6</integer><key>Minute</key><integer>30</integer></dict>
+  <key>StandardOutPath</key><string>/ABSOLUTE/PATH/kids-experience-radar/data/suwon-gyeonggi.stdout.log</string>
+  <key>StandardErrorPath</key><string>/ABSOLUTE/PATH/kids-experience-radar/data/suwon-gyeonggi.stderr.log</string>
+</dict>
+</plist>

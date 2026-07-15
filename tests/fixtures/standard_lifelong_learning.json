@@ -1,0 +1,43 @@
+{
+  "response": {
+    "header": {"resultCode": "00", "resultMsg": "NORMAL SERVICE."},
+    "body": {
+      "items": [
+        {
+          "lctreNm": "시간여행 한국사 교실",
+          "instrctrNm": "홍길동",
+          "edcStartDay": "2026-07-31",
+          "edcEndDay": "2026-08-21",
+          "edcStartTime": "14:00",
+          "edcColseTime": "15:30",
+          "lctreCo": "보드게임과 만들기로 역사를 체험하는 수업",
+          "edcTrgetType": "초등 3~6학년",
+          "edcMthType": "오프라인",
+          "operDay": "금요일",
+          "edcPlace": "1층 더채움",
+          "psncpa": 15,
+          "lctreCost": 0,
+          "edcRdnmadr": "경상남도 창원시 마산회원구 구암북12길 24-1",
+          "operInstitutionNm": "마산지혜의바다도서관",
+          "operPhoneNumber": "055-252-9862",
+          "rceptStartDate": "2026-06-23",
+          "rceptEndDate": "2026-07-15",
+          "rceptMthType": "인터넷",
+          "slctnMthType": "선착순",
+          "homepageUrl": "jhlib.gne.go.kr"
+        },
+        {
+          "lctreNm": "성인 수채화",
+          "edcStartDay": "2026-07-20",
+          "edcEndDay": "2026-08-20",
+          "lctreCo": "기초 회화",
+          "edcTrgetType": "성인",
+          "operInstitutionNm": "예시평생학습관"
+        }
+      ],
+      "numOfRows": 1000,
+      "pageNo": 1,
+      "totalCount": 2
+    }
+  }
+}

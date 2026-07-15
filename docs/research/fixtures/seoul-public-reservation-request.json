@@ -1,0 +1,51 @@
+{
+  "source_id": "seoul_public_reservation",
+  "verified_at": "2026-07-15",
+  "official_documentation": "https://data.seoul.go.kr/dataList/OA-20497/S/1/datasetView.do",
+  "request": {
+    "method": "GET",
+    "url_template": "http://openapi.seoul.go.kr:8088/{SEOUL_OPEN_API_KEY}/json/tvYeyakCOllect/{start}/{end}/",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "pagination": {
+    "first_page": {
+      "start": 1,
+      "end": 1000
+    },
+    "maximum_rows_per_call": 1000,
+    "next_start_formula": "previous_end + 1"
+  },
+  "expected_envelope": {
+    "count_path": "tvYeyakCOllect.list_total_count",
+    "rows_path": "tvYeyakCOllect.row",
+    "result_path": "tvYeyakCOllect.RESULT"
+  },
+  "field_map": {
+    "external_id": "SVCID",
+    "title": "SVCNM",
+    "category_major": "MAXCLASSNM",
+    "category_minor": "MINCLASSNM",
+    "status": "SVCSTATNM",
+    "price_type": "PAYATNM",
+    "venue_name": "PLACENM",
+    "district": "AREANM",
+    "audience_text": "USETGTINFO",
+    "detail_url": "SVCURL",
+    "image_url": "IMGURL",
+    "latitude": "Y",
+    "longitude": "X",
+    "program_starts_at": "SVCOPNBGNDT",
+    "program_ends_at": "SVCOPNENDDT",
+    "application_starts_at": "RCPTBGNDT",
+    "application_ends_at": "RCPTENDDT",
+    "description_html": "DTLCONT",
+    "phone": "TELNO"
+  },
+  "policy": {
+    "authentication": "published API key",
+    "collection": "Use the published API only; do not scrape the booking UI.",
+    "license": "Check the dataset's KOGL notice before redistributing images or long descriptions."
+  }
+}

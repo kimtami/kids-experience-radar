@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - uses: astral-sh/setup-uv@v8
+        with:
+          enable-cache: true
+      - name: Install locked dependencies
+        run: uv sync --extra dev --locked
+      - name: Test
+        run: uv run pytest
+      - name: Lint
+        run: uv run ruff check src tests scripts
+      - name: Compile
+        run: uv run python -m compileall -q src tests scripts
+      - name: Build distributions
+        run: uv build

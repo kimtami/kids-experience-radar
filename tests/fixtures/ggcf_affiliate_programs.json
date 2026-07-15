@@ -1,0 +1,90 @@
+{
+  "current_page": 1,
+  "last_page": 1,
+  "total": 6,
+  "list": [
+    {
+      "id": 3287,
+      "title": "2026년 어린이 전파교실",
+      "summary": "전파와 인공위성을 과학기술 체험으로 배우고 무선충전기를 만듭니다.",
+      "href": "https://gcm.ggcf.kr/edus/796",
+      "place": "경기도어린이박물관 3층 지구별마당",
+      "progress": "진행예정",
+      "progress_start": "2026-07-30(목)",
+      "progress_finish": "2026-07-30(목)",
+      "application_start": "2026-07-13(월)",
+      "application_finish": "2026-07-29(수)",
+      "affiliationName": "경기도어린이박물관",
+      "affiliation_code": "07",
+      "display": "block",
+      "internal_editor_id": "discard"
+    },
+    {
+      "id": 3241,
+      "title": "상상실험실 | 우드 책꽂이 만들기",
+      "summary": "경기상상캠퍼스 개인 교육프로그램 참여자 모집",
+      "href": "https://sscampus.ggcf.kr/edus/1709?tracking=discard",
+      "place": "경기상상캠퍼스 생생1990 상상실험실",
+      "progress": "진행예정",
+      "progress_start": "2026-07-26(일)",
+      "progress_finish": "2026-07-26(일)",
+      "application_start": "2026-07-05(일)",
+      "application_finish": "2026-07-23(목)",
+      "affiliationName": "경기상상캠퍼스",
+      "affiliation_code": "12",
+      "display": "block"
+    },
+    {
+      "id": 5000,
+      "title": "성인 문화기획자 전문과정",
+      "summary": "성인 대상 교육프로그램",
+      "href": "https://ggcf.kr/edus/5000",
+      "place": "경기문화재단",
+      "progress": "진행예정",
+      "progress_start": "2026-08-01",
+      "progress_finish": "2026-08-30",
+      "affiliationName": "경기문화재단",
+      "affiliation_code": "01",
+      "display": "block"
+    },
+    {
+      "id": 321,
+      "title": "매머드 발자국을 찾아라!",
+      "summary": "어린이 화석 체험",
+      "href": "https://ggcf.kr/events/321",
+      "place": "경기도 컬처라운지 경기, 장",
+      "progress": "진행중",
+      "progress_start": "2026-07-12",
+      "progress_finish": "2026-07-26",
+      "affiliationName": "경기문화재단",
+      "affiliation_code": "01",
+      "display": "block"
+    },
+    {
+      "id": 6000,
+      "title": "어린이 과학 체험",
+      "summary": "무료",
+      "href": "https://evil.example/edus/6000",
+      "place": "수원",
+      "progress": "진행예정",
+      "progress_start": "2026-08-01",
+      "progress_finish": "2026-08-02",
+      "affiliationName": "경기문화재단",
+      "affiliation_code": "01",
+      "display": "block"
+    },
+    {
+      "id": 7000,
+      "title": "작년에 끝난 어린이 체험",
+      "summary": "무료",
+      "href": "https://gcm.ggcf.kr/edus/7000",
+      "place": "경기도어린이박물관",
+      "progress": "종료",
+      "progress_start": "2025-01-01",
+      "progress_finish": "2025-01-02",
+      "affiliationName": "경기도어린이박물관",
+      "affiliation_code": "07",
+      "display": "block"
+    }
+  ]
+}

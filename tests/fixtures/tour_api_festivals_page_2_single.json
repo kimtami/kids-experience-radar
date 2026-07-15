@@ -1,0 +1,26 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": {
+          "title": "지역 문화 축제",
+          "contentid": "103",
+          "eventstartdate": "20260730",
+          "eventenddate": "20260802",
+          "addr1": "부산광역시 해운대구 APEC로 1",
+          "mapx": "129.1300",
+          "mapy": "35.1700",
+          "firstimage": "https://example.test/images/103.jpg",
+          "tel": "051-555-0103"
+        }
+      },
+      "numOfRows": 2,
+      "pageNo": 2,
+      "totalCount": 3
+    }
+  }
+}

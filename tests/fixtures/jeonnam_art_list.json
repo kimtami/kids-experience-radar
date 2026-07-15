@@ -1,0 +1,29 @@
+{
+  "header": {"resultCode": "00", "resultMsg": "NORMAL SERVICE"},
+  "body": {
+    "totalCount": 2,
+    "startPage": 1,
+    "pageSize": 100,
+    "items": {
+      "item": [
+        {
+          "artEduId": "EDU-2026-10",
+          "artEduTitle": "여름방학 어린이 미술 탐험대",
+          "artEduStatus": "접수중",
+          "artEduTarget": "초등 3~6학년",
+          "artEduSubTitle": "작품을 보고 만드는 가족 미술 체험",
+          "artEduTime": "10:00~12:00",
+          "artEduCapacity": "20명",
+          "artEduPlace": "어린이 아틀리에",
+          "artEduThumb": "https://artmuseum.example.org/thumb.jpg"
+        },
+        {
+          "artEduId": "EDU-2026-11",
+          "artEduTitle": "성인 수묵화 강좌",
+          "artEduStatus": "접수중",
+          "artEduTarget": "성인"
+        }
+      ]
+    }
+  }
+}

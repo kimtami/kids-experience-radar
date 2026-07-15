@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "institution_example",
+      "name": "기관 프로그램 예시",
+      "owner": "기관명",
+      "list_url": "https://institution.example/programs",
+      "official_url": "https://institution.example/programs",
+      "card_selector": ".program-card",
+      "legal_review_status": "pending",
+      "license_code": null,
+      "enabled": false,
+      "page_param": "page",
+      "fields": {
+        "title": ".title",
+        "detail_url": {"selector": "a", "attr": "href"},
+        "event_start": {"selector": "time.start", "attr": "datetime"},
+        "event_end": {"selector": "time.end", "attr": "datetime"},
+        "age_text": ".target",
+        "price_text": ".fee",
+        "venue_name": ".venue",
+        "address": ".address",
+        "status": ".status"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "resultCode": "00",
+  "resultMessage": "정상적으로 조회되었습니다.",
+  "result": {
+    "list": [
+      {
+        "id": "9001",
+        "showName": "합성 어린이 기술교실 A",
+        "showStatusNm": "접수중",
+        "fitPersonNm": "초등학생",
+        "fitPersonDetail": "(3학년 이상)",
+        "pepleNumber": "20",
+        "applyTime1": "2026-07-20 10:00:00.0",
+        "applyTime2": "2026-07-25 16:00:00.0",
+        "startDate": "2026-08-01 00:00:00.0",
+        "endDate": "2026-08-31 00:00:00.0",
+        "remainingNum": "4/20",
+        "academyStatus": "1",
+        "detailInfo": "파서 검증을 위한 합성 에너지 교육 설명입니다.",
+        "showTopic": "합성 AI 에너지 수업",
+        "chargerUserName": "synthetic-private-field"
+      },
+      {
+        "id": "9002",
+        "showName": "[온라인] 합성 어린이 기술교실",
+        "showStatusNm": "접수예정",
+        "fitPersonNm": "초등학생",
+        "fitPersonDetail": "1~2학년",
+        "pepleNumber": "30",
+        "applyTime1": "2026-08-01 00:00:00.0",
+        "applyTime2": "2026-08-07 00:00:00.0",
+        "startDate": "2026-08-10 00:00:00.0",
+        "endDate": "2026-08-10 00:00:00.0",
+        "remainingNum": "30/30",
+        "academyStatus": "0",
+        "detailInfo": "화상으로 진행하는 합성 온라인 수업입니다.",
+        "showTopic": "합성 연결 기술 수업",
+        "fee": "12,000원"
+      },
+      {
+        "id": "8999",
+        "showName": "종료된 합성 어린이 기술교실",
+        "showStatusNm": "접수마감",
+        "fitPersonNm": "초등학생",
+        "fitPersonDetail": "",
+        "pepleNumber": "20",
+        "applyTime1": "2025-01-01 00:00:00.0",
+        "applyTime2": "2025-01-05 00:00:00.0",
+        "startDate": "2025-01-10 00:00:00.0",
+        "endDate": "2025-01-10 00:00:00.0",
+        "remainingNum": "0/20",
+        "academyStatus": "2",
+        "detailInfo": "종료 상태 파서 검증용 합성 프로그램",
+        "showTopic": "합성 과거 프로그램"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "title": "<b>어린이</b> 과학 체험 축제",
+            "contentid": "101",
+            "eventstartdate": "20260718",
+            "eventenddate": "20260719",
+            "addr1": "서울특별시 종로구 세종대로 1",
+            "mapx": "126.9784",
+            "mapy": "37.5666",
+            "firstimage": "https://example.test/images/101.jpg",
+            "tel": "02-1234-5678"
+          },
+          {
+            "title": "여름 가족 물놀이 축제",
+            "contentid": "102",
+            "eventstartdate": "20260725",
+            "eventenddate": "20260726",
+            "addr1": "경기도 수원시 팔달구 효원로 1",
+            "mapx": "not-a-coordinate",
+            "mapy": "",
+            "firstimage": "",
+            "tel": "031-111-2222"
+          }
+        ]
+      },
+      "numOfRows": 2,
+      "pageNo": 1,
+      "totalCount": "3"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+[mcp_servers.kids_experience_radar]
+command = "uv"
+args = ["run", "kidradar-mcp"]
+cwd = "/ABSOLUTE/PATH/kids-experience-radar"
+enabled = true
+startup_timeout_sec = 30
+tool_timeout_sec = 900
+
+[mcp_servers.kids_experience_radar.env]
+PYTHONUNBUFFERED = "1"
+KIDS_RADAR_ENV_FILE = ".env"
+KIDS_RADAR_DB = "data/radar.sqlite3"
+KIDS_RADAR_MCP_ALLOW_CRAWL = "0"

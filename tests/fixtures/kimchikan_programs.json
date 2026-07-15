@@ -1,0 +1,77 @@
+{
+  "content": [
+    {
+      "programCode": "PR0001",
+      "programName": "2026 어린이김치학교 [6-9] [개인]",
+      "programStatus": "001",
+      "minCnt": 5,
+      "maxCnt": 24,
+      "guardianFee": 5000,
+      "programContent": "<p>어린이가 직접 김치를 만들고 전시를 관람합니다.</p>",
+      "programPhoto": "/upload/images/children-6-9.jpg",
+      "infoList": [
+        {
+          "infoTitle": "접수 대상",
+          "infoContent": "6~9세 (출생년도: 2018~2021년)",
+          "parsedInfoContent": "6~9세 (출생년도: 2018~2021년)"
+        },
+        {
+          "infoTitle": "모집 정원",
+          "infoContent": "최소 5명 ~ 최대 24명",
+          "parsedInfoContent": "최소 5명 ~ 최대 24명"
+        },
+        {
+          "infoTitle": "비용",
+          "infoContent": "무료 (단, 보호자는 입장료 1인 5,000원)",
+          "parsedInfoContent": "무료 (단, 보호자는 입장료 1인 5,000원)"
+        }
+      ],
+      "targetDetailsList": [
+        {
+          "minApplyAge": 0,
+          "maxApplyAge": 0,
+          "activityFee": 0,
+          "entranceFee": 0
+        }
+      ]
+    },
+    {
+      "programCode": "PR0002",
+      "programName": "2026 어린이김치학교 [10-13] [개인]",
+      "programStatus": "001",
+      "minCnt": 5,
+      "maxCnt": 24,
+      "guardianFee": 5000,
+      "programContent": "초등 고학년 어린이를 위한 김치 교육입니다.",
+      "programPhoto": "https://kimchikan.com/upload/images/children-10-13.jpg",
+      "infoList": [
+        {
+          "infoTitle": "접수 대상",
+          "infoContent": "10~13세",
+          "parsedInfoContent": "10~13세"
+        },
+        {
+          "infoTitle": "비용",
+          "infoContent": "어린이 무료 / 보호자 입장료 5,000원",
+          "parsedInfoContent": "어린이 무료 / 보호자 입장료 5,000원"
+        }
+      ],
+      "targetDetailsList": []
+    },
+    {
+      "programCode": "PR0099",
+      "programName": "성인 김치 만들기",
+      "programStatus": "001",
+      "minCnt": 1,
+      "maxCnt": 10,
+      "guardianFee": 0,
+      "programContent": "성인 대상 프로그램",
+      "infoList": [],
+      "targetDetailsList": []
+    }
+  ],
+  "page": 1,
+  "size": 50,
+  "totalCount": 3,
+  "totalPages": 1
+}

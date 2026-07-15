@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbs>
+  <db>
+    <mt20id>PF999001</mt20id>
+    <prfnm>어린이 과학 뮤지컬</prfnm>
+    <prfpdfrom>2026.07.20</prfpdfrom>
+    <prfpdto>2026.08.20</prfpdto>
+    <fcltynm>꿈빛극장</fcltynm>
+    <poster>https://www.kopis.or.kr/poster/PF999001.jpg</poster>
+    <area>서울특별시</area>
+    <genrenm>뮤지컬</genrenm>
+    <openrun>N</openrun>
+    <prfstate>공연중</prfstate>
+  </db>
+</dbs>

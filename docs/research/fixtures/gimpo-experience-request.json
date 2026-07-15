@@ -1,0 +1,53 @@
+{
+  "source_id": "gimpo_integrated_experience",
+  "verified_at": "2026-07-15",
+  "request": {
+    "method": "GET",
+    "url": "https://www.gimpo.go.kr/reserve/webEtcResveList.do",
+    "query": {
+      "key": "113",
+      "rep": "1",
+      "etcProgramSection": "EXPERIENCE",
+      "searchEtcGroup": "",
+      "pageIndex": "1"
+    },
+    "headers": {
+      "Accept": "text/html",
+      "User-Agent": "KidsExperienceRadar/0.1 (+operator contact URL)"
+    }
+  },
+  "detail_url_template": "https://www.gimpo.go.kr/reserve/webEtcResveView.do?key=113&rep=1&etcProgramSection=EXPERIENCE&searchEtcResveNo={searchEtcResveNo}",
+  "stable_keys": {
+    "category": "etcProgramSection",
+    "provider_filter": "searchEtcGroup",
+    "external_id": "searchEtcResveNo"
+  },
+  "expected_labels": [
+    "프로그램명",
+    "접수기간",
+    "운영기간",
+    "대상",
+    "장소",
+    "이용료",
+    "접수상태"
+  ],
+  "normalized_fields": [
+    "external_id",
+    "title",
+    "provider_name",
+    "status",
+    "application_starts_at",
+    "application_ends_at",
+    "program_starts_at",
+    "program_ends_at",
+    "audience_text",
+    "venue_name",
+    "price_text",
+    "detail_url"
+  ],
+  "policy": {
+    "authentication": "List and detail are public; reservation submission is out of crawler scope.",
+    "robots": "The reservation list was not disallowed by the policy observed on 2026-07-15.",
+    "collection": "Fetch list pages first and request detail pages only for new or changed external IDs."
+  }
+}

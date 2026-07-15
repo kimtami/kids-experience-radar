@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "kids_experience_radar": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "${CLAUDE_PROJECT_DIR:-.}",
+        "kidradar-mcp"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1",
+        "KIDS_RADAR_ENV_FILE": "${CLAUDE_PROJECT_DIR:-.}/.env",
+        "KIDS_RADAR_DB": "${CLAUDE_PROJECT_DIR:-.}/data/radar.sqlite3",
+        "KIDS_RADAR_MCP_ALLOW_CRAWL": "0"
+      }
+    }
+  }
+}

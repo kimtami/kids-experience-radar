@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kids-experience-radar"
+version = "0.1.0"
+description = "Policy-aware daily crawler and nearby API for Korean children's experiences"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Kids Experience Radar contributors" }]
+dependencies = [
+  "beautifulsoup4>=4.12,<5",
+  "fastapi>=0.115,<1",
+  "httpx>=0.27,<1",
+  "mcp>=1.28.1,<2",
+  "pydantic>=2,<3",
+  "truststore>=0.10,<1",
+  "uvicorn>=0.30,<1",
+]
+
+[project.urls]
+Homepage = "https://github.com/kimtami/kids-experience-radar"
+Repository = "https://github.com/kimtami/kids-experience-radar"
+Issues = "https://github.com/kimtami/kids-experience-radar/issues"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<10",
+  "ruff>=0.15,<0.16",
+]
+
+[project.scripts]
+kidradar = "kids_experience_radar.cli:main"
+kidradar-mcp = "kids_experience_radar.mcp_server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kids_experience_radar"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

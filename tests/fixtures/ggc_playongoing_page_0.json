@@ -1,0 +1,82 @@
+{
+  "INFO": 0,
+  "DATA": [
+    {
+      "writer": "경기문화재단",
+      "subject": "우리들의 작은 우주 어린이 체험전",
+      "category": "전시",
+      "href": "https://ggc.ggcf.kr/cultureEvents/view/6a4f50a2954497b1205638a7",
+      "startdate": "2026-07-20",
+      "enddate:": "2026-09-23",
+      "address": "경기도 수원시 권선구 서둔로 166",
+      "intime": "10:00~18:00",
+      "incost": "무료",
+      "inquiry": "031-296-1980",
+      "inarea": "경기상상캠퍼스",
+      "homepage": "https://sscampus.kr/",
+      "created": "2026-07-09",
+      "privateMemberId": "must-not-leak"
+    },
+    {
+      "writer": "경기문화재단",
+      "subject": "2026 업사이클 체험프로그램 수강생 모집",
+      "category": "교육",
+      "href": "https://ggc.ggcf.kr/cultureEvents/view/69b24a66786a7564b5f2a0a6",
+      "startdate": "2026-03-01",
+      "enddate:": "2026-11-30",
+      "address": "경기도 광명시 가학로85번길 142",
+      "intime": "강좌별 상이",
+      "incost": "10,000원~30,000원",
+      "inquiry": "02-2680-6952",
+      "inarea": "광명업사이클아트센터",
+      "homepage": "https://gm.go.kr/up/",
+      "created": "2026-02-20"
+    },
+    {
+      "writer": "경기문화재단",
+      "subject": "컬처라운지 경기, 장 초등 가족 체험",
+      "category": "행사",
+      "href": "https://ggc.ggcf.kr/cultureEvents/view/69b24a66786a7564b5f2a111",
+      "startdate": "2026-08-01",
+      "enddate:": "2026-08-02",
+      "address": "경기도 수원시 영통구",
+      "incost": "무료",
+      "inarea": "컬처라운지 경기,장"
+    },
+    {
+      "writer": "경기문화재단",
+      "subject": "성인 도슨트 전문과정",
+      "category": "교육",
+      "href": "https://ggc.ggcf.kr/cultureEvents/view/69b24a66786a7564b5f2a0ff",
+      "startdate": "2026-08-01",
+      "enddate:": "2026-08-31",
+      "address": "경기도 수원시",
+      "intime": "매주 토요일",
+      "incost": "무료",
+      "inquiry": "031-000-0000",
+      "inarea": "가상교육관",
+      "homepage": "undefined",
+      "created": "2026-07-10"
+    },
+    {
+      "writer": "경기문화재단",
+      "subject": "초등 가족 과학 워크숍",
+      "category": "교육",
+      "href": "https://evil.example/events/steal",
+      "startdate": "2026-08-10",
+      "enddate:": "2026-08-10",
+      "address": "경기도 수원시",
+      "incost": "무료"
+    },
+    {
+      "writer": "경기문화재단",
+      "subject": "작년에 끝난 어린이 교육",
+      "category": "교육",
+      "href": "https://ggc.ggcf.kr/cultureEvents/view/68b24a66786a7564b5f2a0a6",
+      "startdate": "2025-03-01",
+      "enddate:": "2025-04-01",
+      "address": "경기도 수원시",
+      "incost": "무료"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header><resultCode>00</resultCode><resultMsg>OK</resultMsg></header>
+  <body>
+    <items>
+      <item>
+        <facnm>두타산 자연휴양림</facnm>
+        <addr>강원특별자치도 평창군 진부면 아차골길 132</addr>
+        <category>관찰, 체험</category>
+        <period>4~10월</period>
+        <mnagnnm>국립자연휴양림관리소</mnagnnm>
+        <tel>033-000-0000</tel>
+        <title>가족 숲 생태 체험</title>
+        <cont>초등학생 가족이 함께 숲을 관찰합니다.</cont>
+      </item>
+    </items>
+    <numOfRows>100</numOfRows>
+    <pageNo>1</pageNo>
+    <totalCount>1</totalCount>
+  </body>
+</response>

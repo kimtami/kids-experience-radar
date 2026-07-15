@@ -1,0 +1,70 @@
+{
+  "cnt": 3,
+  "paginationInfo": {
+    "currentPageNo": 1,
+    "recordCountPerPage": 10,
+    "totalRecordCount": 3,
+    "totalPageCount": 2
+  },
+  "resultList": [
+    {
+      "center_cd": "2",
+      "pgm_no": "GS2026071501",
+      "pgm_gb": "3131",
+      "pgm_nm": "초등 가족 우주과학 캠프",
+      "state_gb": "3202",
+      "open_from": "20260814",
+      "open_to": "20260816",
+      "receive_from": "20260715",
+      "receive_to": "20260810",
+      "enter_nm": "초등 3~6학년 자녀를 둔 가족",
+      "enter_amt": "120000",
+      "wait_cnt": "10",
+      "ing_cnt": 8,
+      "target_cnt": 40,
+      "reservation_cnt": 0,
+      "mng_tel": "041-620-7700",
+      "member_id": "fixture-private-id",
+      "member_pwd": "fixture-private-password",
+      "member_name": "fixture-private-name",
+      "mng_hp": "010-0000-0000",
+      "cre_ip": "192.0.2.1"
+    },
+    {
+      "center_cd": "2",
+      "pgm_no": "GS2026071502",
+      "pgm_gb": "3151",
+      "pgm_nm": "개인고객 대상 숙소 이용",
+      "state_gb": "3202",
+      "open_from": "20260814",
+      "open_to": "20260816",
+      "receive_from": "20260715",
+      "receive_to": "20260810",
+      "enter_nm": "가족 또는 개인",
+      "enter_amt": "237600",
+      "wait_cnt": "10",
+      "ing_cnt": 0,
+      "target_cnt": 40,
+      "reservation_cnt": 0,
+      "mng_tel": "041-620-7700"
+    },
+    {
+      "center_cd": "2",
+      "pgm_no": "GS2026071503",
+      "pgm_gb": "3101",
+      "pgm_nm": "성인 리더십 연수",
+      "state_gb": "3201",
+      "open_from": "20260820",
+      "open_to": "20260821",
+      "receive_from": "20260720",
+      "receive_to": "20260810",
+      "enter_nm": "기업 임직원",
+      "enter_amt": "80000",
+      "wait_cnt": "0",
+      "ing_cnt": 0,
+      "target_cnt": 20,
+      "reservation_cnt": 0,
+      "mng_tel": "041-620-7700"
+    }
+  ]
+}

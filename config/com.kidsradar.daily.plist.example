@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.kidsradar.daily</string>
+  <key>WorkingDirectory</key><string>/ABSOLUTE/PATH/kids-experience-radar</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string><string>-lc</string>
+    <string>uv run kidradar crawl --max-pages 10 &amp;&amp; uv run kidradar digest --lat 37.5665 --lon 126.9780 --radius-km 20 --output data/digest-latest.md</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>0</integer></dict>
+  <key>StandardOutPath</key><string>/ABSOLUTE/PATH/kids-experience-radar/data/daily.stdout.log</string>
+  <key>StandardErrorPath</key><string>/ABSOLUTE/PATH/kids-experience-radar/data/daily.stderr.log</string>
+</dict>
+</plist>

@@ -1,0 +1,75 @@
+{
+  "list": [
+    {
+      "proId": 1677,
+      "title": "키즈랩 7월 프로그램 - 초등학교 3-4학년",
+      "type1": 102,
+      "type1Name": "교육",
+      "programStartDate": "2026.07.05",
+      "programEndDate": "2026.07.18",
+      "homeTarget": "초등학교 3-4학년",
+      "place": "키즈랩",
+      "placeDesc": "삼성아동교육문화센터 1층 키즈랩",
+      "income": 0,
+      "applyFreeType": "무료",
+      "status": 1,
+      "statusName": "신청중",
+      "proImg": "/upload/private-image.jpg",
+      "content": "수집하지 않는 상세 본문",
+      "summary": "수집하지 않는 요약",
+      "inquiry": "02-0000-0000",
+      "applicantTypes": [{"childName": "절대 보존 금지"}]
+    },
+    {
+      "proId": 1700,
+      "title": "키즈랩 호암미술관 - 초등학교 1-3학년",
+      "type1": 102,
+      "type1Name": "교육",
+      "programStartDate": "2026.08.01",
+      "programEndDate": "2026.08.22",
+      "homeTarget": null,
+      "place": null,
+      "placeDesc": null,
+      "income": "15000",
+      "applyFreeType": "유료",
+      "status": 2,
+      "statusName": "신청예정",
+      "oldContent": "legacy detail"
+    },
+    {
+      "proId": 1701,
+      "title": "성인 현대미술 강좌",
+      "type1": 102,
+      "programStartDate": "2026.08.03",
+      "programEndDate": "2026.08.10",
+      "homeTarget": "성인 대상",
+      "placeDesc": "리움 강당",
+      "income": "20000",
+      "status": 1,
+      "statusName": "신청중"
+    },
+    {
+      "proId": 1500,
+      "title": "지난 키즈랩 - 초등학교 5-6학년",
+      "type1": 102,
+      "programStartDate": "2025.05.01",
+      "programEndDate": "2025.05.02",
+      "homeTarget": "초등학교 5-6학년",
+      "placeDesc": "리움 키즈랩",
+      "income": 0,
+      "status": 2,
+      "statusName": "신청예정"
+    }
+  ],
+  "paging": {
+    "page": 1,
+    "pageBegin": 1,
+    "pageEnd": 1,
+    "maxPage": 1,
+    "totalCount": 4,
+    "limit": 100,
+    "startNum": 1,
+    "endNum": 100
+  },
+  "total": 4
+}

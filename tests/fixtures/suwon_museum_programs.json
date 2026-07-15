@@ -1,0 +1,61 @@
+{
+  "dataList": [
+    {
+      "museumCd": "HS",
+      "progrmSeq": 319,
+      "progrmNm": "[주말/대면/어린이] 원리로 이해하는 수원화성 축성(8/1)",
+      "progrsDtCn": "2026.08.01.(토)",
+      "rceptDtCn": "2026.07.15. 10:00 ~ 2026.07.29. 18:00",
+      "partcptTrget": null,
+      "btnRceptSttusCd": "접수중"
+    },
+    {
+      "museumCd": "SW",
+      "progrmSeq": 397,
+      "progrmNm": "[어린이 주말교육] 민화 속 동물 친구들",
+      "progrsDtCn": "2026.07.25.(토)",
+      "rceptDtCn": "2026.07.13. ~ 2026.07.23.",
+      "partcptTrget": "어린이",
+      "btnRceptSttusCd": "마감"
+    },
+    {
+      "museumCd": "GG",
+      "progrmSeq": 258,
+      "progrmNm": "[주말교육] 자연 속 그림한자(8/1)",
+      "progrsDtCn": "2026.08.01.(토)",
+      "rceptDtCn": "2026.07.20. 10:00 ~ 2026.07.30. 10:00",
+      "partcptTrget": null,
+      "btnRceptSttusCd": "접수대기",
+      "memberId": "must-not-be-stored",
+      "applicantPhone": "010-1111-2222"
+    },
+    {
+      "museumCd": "GG",
+      "progrmSeq": 246,
+      "progrmNm": "[성인교육] 광교 어반스케치",
+      "progrsDtCn": "2026.08.05. ~ 2026.09.02.",
+      "rceptDtCn": "2026.07.21. ~ 2026.08.02.",
+      "partcptTrget": "성인",
+      "btnRceptSttusCd": "접수중"
+    },
+    {
+      "museumCd": "GG",
+      "progrmSeq": "258;drop",
+      "progrmNm": "깨진 식별자",
+      "progrsDtCn": "2026.08.01.",
+      "rceptDtCn": "2026.07.20.",
+      "btnRceptSttusCd": "접수중"
+    }
+  ],
+  "pageViewStartIndex": 0,
+  "paginationInfo": {
+    "currentPageNo": 1,
+    "recordCountPerPage": 10,
+    "totalPageCount": 1,
+    "totalRecordCount": 5
+  },
+  "searchVO": {
+    "searchTabType": "ING"
+  },
+  "totalCnt": 5
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header>
+    <resultCode>200</resultCode>
+    <resultMsg>OK</resultMsg>
+  </header>
+  <body>
+    <pageNo>2</pageNo>
+    <numOfRows>100</numOfRows>
+    <totalCount>101</totalCount>
+    <items>
+      <item>
+        <rsrcNo>EDU003</rsrcNo>
+        <rsrcNm>어린이 도예 강좌</rsrcNm>
+        <zip>30112</zip>
+        <addr>세종특별자치시 도움6로 42</addr>
+        <daddr>문화교실 2층</daddr>
+        <lot>127.2890</lot>
+        <lat>36.4800</lat>
+        <instUrlAddr></instUrlAddr>
+        <imgFileUrlAddr>https://images.example.test/EDU003.jpg</imgFileUrlAddr>
+      </item>
+    </items>
+  </body>
+</response>

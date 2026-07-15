@@ -1,0 +1,45 @@
+{
+  "resultCode": "00",
+  "resultMessage": "정상적으로 조회되었습니다.",
+  "result": {
+    "total": 3,
+    "list": [
+      {
+        "id": "7001",
+        "eventName": "합성 어린이 과학 아트 체험",
+        "eventTypeNm": "체험형 이벤트",
+        "fitPersonNm": "초등학생",
+        "applyTime1": "2026-08-01 10:00:00.0",
+        "applyTime2": "2026-08-10 23:59:59.0",
+        "startDate": "2026-08-15 11:00:00.0",
+        "endDate": "2026-08-15 12:00:00.0",
+        "pepleNumber": "240",
+        "remainingNum": "25/240",
+        "eventTopic": "파서 검증을 위한 합성 과학 공연",
+        "detailInfo": "합성 초등학생 체험형 공연",
+        "smallPicPath": "/images/test-event.png",
+        "smallPicTitle1": "합성 과학 아트 체험",
+        "smallPicTitle2": "합성 빛과 모래 과학",
+        "accessUserIp": "synthetic-private-field",
+        "chargerUserName": "synthetic-private-field",
+        "loginSessionId": "synthetic-private-field"
+      },
+      {
+        "id": "7002",
+        "eventName": "합성 연간 이벤트 일정",
+        "eventTypeNm": "공연 이벤트",
+        "fitPersonNm": "제한 없음",
+        "startDate": "2026-01-01 00:00:00.0",
+        "endDate": "2026-12-31 00:00:00.0"
+      },
+      {
+        "id": "7003",
+        "eventName": "합성 성인 대상 전시 해설",
+        "eventTypeNm": "해설",
+        "fitPersonNm": "성인 대상",
+        "startDate": "2026-08-20 00:00:00.0",
+        "endDate": "2026-08-20 00:00:00.0"
+      }
+    ]
+  }
+}
